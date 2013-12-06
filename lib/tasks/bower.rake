@@ -5,7 +5,7 @@ namespace :bower do
   desc "Install components from bower"
   task :install do
     perform do
-      sh 'bower install'
+      system('bower install')
     end
   end
 
